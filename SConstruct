@@ -10,6 +10,7 @@ import methods
 methods.update_version()
 
 # scan possible build platforms
+ 
 
 platform_list = [] # list of platforms
 platform_opts = {} # options for each platform
