@@ -9,13 +9,11 @@ import methods
 
 methods.update_version()
 
-# scan possible build platforms
- 
+# scan possible build platforms 
 
 platform_list = [] # list of platforms
 platform_opts = {} # options for each platform
 platform_flags = {} # flags for each platform
-
 
 active_platforms=[]
 active_platform_ids=[]
