@@ -15,6 +15,7 @@ platform_list = [] # list of platforms
 platform_opts = {} # options for each platform
 platform_flags = {} # flags for each platform
 
+
 active_platforms=[]
 active_platform_ids=[]
 platform_exporters=[]

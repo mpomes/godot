@@ -26,7 +26,8 @@ def can_build():
 			
 	if (os.name=="posix"):
 
-		mingw = "i586-mingw32msvc-"
+		
+                mingw = "i386-mingw32-"
 		mingw64 = "i686-w64-mingw32-"
 		if (os.getenv("MINGW32_PREFIX")):
 			mingw=os.getenv("MINGW32_PREFIX")
@@ -45,7 +46,7 @@ def get_opts():
 	mingw=""
 	mingw64=""
 	if (os.name!="nt"):
-		mingw = "i586-mingw32msvc-"
+		mingw = "i386-mingw32-"
 		mingw64 = "i686-w64-mingw32-"
 		if (os.getenv("MINGW32_PREFIX")):
 			mingw=os.getenv("MINGW32_PREFIX")
